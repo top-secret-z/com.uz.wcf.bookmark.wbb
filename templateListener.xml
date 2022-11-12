@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/templateListener.xsd">
-	<import>
-		<templatelistener name="bookmarkPost">
-			<environment>user</environment>
-			<templatename>threadPostList</templatename>
-			<eventname>messageFooterButtons</eventname>
-			<templatecode><![CDATA[{include file='__bookmarkPost' application='wbb'}]]></templatecode>
-		</templatelistener>
-		
-		<templatelistener name="bookmarkThread">
-			<environment>user</environment>
-			<templatename>thread</templatename>
-			<eventname>infoBoxes</eventname>
-			<templatecode><![CDATA[{include file='__bookmarkThread' application='wbb'}]]></templatecode>
-		</templatelistener>
-		
-		<templatelistener name="userProfileBookmarkPost">
-			<environment>user</environment>
-			<templatename>userProfileBookmark</templatename>
-			<eventname>dropDownType</eventname>
-			<templatecode><![CDATA[{include file='__userProfileBookmarkPost' application='wbb'}]]></templatecode>
-		</templatelistener>
-	</import>
+    <import>
+        <templatelistener name="bookmarkPost">
+            <environment>user</environment>
+            <templatename>threadPostList</templatename>
+            <eventname>messageFooterButtons</eventname>
+            <templatecode><![CDATA[{include file='__bookmarkPost' application='wbb'}]]></templatecode>
+        </templatelistener>
+
+        <templatelistener name="bookmarkThread">
+            <environment>user</environment>
+            <templatename>thread</templatename>
+            <eventname>infoBoxes</eventname>
+            <templatecode><![CDATA[{include file='__bookmarkThread' application='wbb'}]]></templatecode>
+        </templatelistener>
+
+        <templatelistener name="userProfileBookmarkPost">
+            <environment>user</environment>
+            <templatename>userProfileBookmark</templatename>
+            <eventname>dropDownType</eventname>
+            <templatecode><![CDATA[{include file='__userProfileBookmarkPost' application='wbb'}]]></templatecode>
+        </templatelistener>
+    </import>
 </data>
